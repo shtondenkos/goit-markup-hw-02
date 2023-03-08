@@ -139,6 +139,10 @@ color: var(--color-buttons-hover);
     display: flex;
 
 }
+.buttons li button {
+    box-shadow: none;
+}
+
 .btn {
     font-size: 16px;
     line-height: 1.62;
