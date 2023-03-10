@@ -85,6 +85,7 @@ color: var(--color-buttons-hover);
     list-style: none;
     text-decoration: none;
     font-size: 44px;
+    text-transform: uppercase;
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: var(--color-body)
@@ -103,7 +104,8 @@ color: var(--color-buttons-hover);
 .mail,
 .tel {
     font-size: 14px;
-    line-height: 1.21em;
+    font-weight: 500;
+    line-height: 1.21;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
     font-style: normal;
@@ -244,9 +246,13 @@ color: var(--color-buttons-hover);
     text-align: center;
     color: var(--color-primery);
 }
+.ourteam {
+    background-color: var(--color-buttons-background)
+}
 
 .name {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
@@ -258,9 +264,6 @@ color: var(--color-buttons-hover);
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--color-secondary);
-}
-.teamcard li {
-    background-color: #FFFFFF;
 }
 
 .image-about {
