@@ -263,4 +263,9 @@ color: var(--color-buttons-hover);
     background-color: #FFFFFF;
 }
 
+.image-about {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
 
