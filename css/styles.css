@@ -148,6 +148,7 @@ color: var(--color-buttons-hover);
     background-color: var(--color-buttons-background);
     border-radius: 4px;
     border-width: none;
+    justify-content: center;
  
 }
 .btn:hover,
