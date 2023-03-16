@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header-box">
+      <div class="conteiner">
+        <div class="header-conteiner">
+      <nav class="header-nav">
         <a href="./index.html" class="logo"
           >Web<span class="logo-header">Studio</span></a
         >
@@ -39,12 +41,17 @@
           <a class="tel"  href="tel:+380961111111" >+38 096 111 11 11</a>
         </li>
       </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="hero">
+        <div class="conteiner">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button">Замовити послугу</button>
+        </div>
       </section>
+      <div class="conteiner">
       <section>
         <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="feature">
@@ -77,40 +84,48 @@
           </li>
         </ul>
       </section>
-      <section>
+      </div>
+      <section class="section">
+        <div class="conteiner">
+          <div class="images">
         <h2 class="work">Чим ми займаємося</h2>
         <ul class="image-about">
-          <li><img src="./images/box1.jpg" alt="клавіатура" width="370" /></li>
-          <li><img src="./images/box2.jpg" alt="смартфон" width="370" /></li>
-          <li><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
+          <li class="image-title"><img src="./images/box1.jpg" alt="клавіатура" width="370" /></li>
+          <li class="image-title"><img src="./images/box2.jpg" alt="смартфон" width="370" /></li>
+          <li class="image-title"><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
         </ul>
+          </div>
+        </div>
       </section>
       <section class="ourteam">
+        <div class="conteiner">
         <h2 class="team">Наша команда</h2>
         <ul class="teamcard">
-          <li>
+          <li class="team-foto">
             <img src="./images/img1.jpg" alt="Ігор Дем'яненко" width="270" />
             <h3 class="name">Ігор Дем'яненко</h3>
             <p class="job-title">Product Designer</p>
           </li>
-          <li>
+          <li class="team-foto">
             <img src="./images/img2.jpg" alt="Ольга Рєпіна" width="270" />
             <h3 class="name">Ольга Рєпіна</h3>
             <p class="job-title">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-foto">
             <img src="./images/img3.jpg" alt="Микола Тарасов" width="270" />
             <h3 class="name">Микола Тарасов</h3>
             <p class="job-title">Marketing</p>
           </li>
-          <li>
+          <li class="team-foto">
             <img src="./images/img4.jpg" alt="Михайло Єрмаков" width="270" />
             <h3 class="name">Михайло Єрмаков</h3>
             <p class="job-title">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
+    <div class="conteiner">
     <footer class="foot">
       <a href="./index.html" class="logo"
         >Web<span class="logo-footer">Studio</span></a
@@ -127,5 +142,6 @@
         <a class="foot-tel" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
+    </div>
   </body>
 </html>
